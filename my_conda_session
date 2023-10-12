@@ -1,0 +1,458 @@
+Script started on 2023-10-11 18:49:50+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda list
+[?2004l# packages in environment at /home/narasamma/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.12.2          py311h06a4308_0  
+boltons                   23.0.0          py311h06a4308_0  
+brotlipy                  0.7.0           py311h5eee18b_1002  
+bzip2                     1.0.8                h7b6447c_0  
+c-ares                    1.19.1               h5eee18b_0  
+ca-certificates           2023.08.22           h06a4308_0  
+certifi                   2023.7.22       py311h06a4308_0  
+cffi                      1.15.1          py311h5eee18b_3  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     23.9.0          py311h06a4308_0  
+conda-content-trust       0.1.3           py311h06a4308_0  
+conda-libmamba-solver     23.9.1          py311h06a4308_0  
+conda-package-handling    2.2.0           py311h06a4308_0  
+conda-package-streaming   0.9.0           py311h06a4308_0  
+cryptography              39.0.1          py311h9ce1e76_2  
+fmt                       9.1.0                hdb19cb5_0  
+icu                       73.1                 h6a678d5_0  
+idna                      3.4             py311h06a4308_0  
+jsonpatch                 1.32               pyhd3eb1b0_0  
+jsonpointer               2.1                pyhd3eb1b0_0  
+krb5                      1.20.1               h143b758_1  
+ld_impl_linux-64          2.38                 h1181459_1  
+libarchive                3.6.2                h6ac8c49_2  
+libcurl                   8.4.0                h251f7ec_0  
+libedit                   3.1.20221030         h5eee18b_0  
+libev                     4.33                 h7f8727e_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libmamba                  1.5.1                haf1ee3a_0  
+libmambapy                1.5.1           py311h2dafd23_0  
+libnghttp2                1.57.0               h2d74bed_0  
+libsolv                   0.7.24               he621ea3_0  
+libssh2                   1.10.0               hdbd6064_2  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+libxml2                   2.10.4               hf1b16e4_1  
+lz4-c                     1.9.4                h6a678d5_0  
+ncurses                   6.4                  h6a678d5_0  
+openssl                   3.0.11               h7f8727e_2  
+packaging                 23.1            py311h06a4308_0  
+pcre2                     10.42                hebb0a14_0  
+pip                       23.1.2          py311h06a4308_0  
+pluggy                    1.0.0           py311h06a4308_1  
+pybind11-abi              4                    hd3eb1b0_1  
+pycosat                   0.6.6           py311h5eee18b_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 23.2.0          py311h06a4308_0  
+pysocks                   1.7.1           py311h06a4308_0  
+python                    3.11.4               h955ad1f_0  
+readline                  8.2                  h5eee18b_0  
+reproc                    14.2.4               h295c915_1  
+reproc-cpp                14.2.4               h295c915_1  
+requests                  2.31.0          py311h06a4308_0  
+ruamel.yaml               0.17.21         py311h5eee18b_0  
+setuptools                67.8.0          py311h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+soupsieve                 2.5             py311h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tk                        8.6.12               h1ccaba5_0  
+tqdm                      4.65.0          py311h92b7b1e_0  
+truststore                0.8.0           py311h06a4308_0  
+tzdata                    2023c                h04d1e81_0  
+urllib3                   1.26.16         py311h06a4308_0  
+wheel                     0.38.4          py311h06a4308_0  
+xz                        5.4.2                h5eee18b_0  
+yaml-cpp                  0.7.0                h295c915_1  
+zlib                      1.2.13               h5eee18b_0  
+zstandard                 0.19.0          py311h5eee18b_0  
+zstd                      1.5.5                hc292b87_0  
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ com[Knda --version
+[?2004lconda 23.9.0
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda update conda
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - \ | / - \ done
+
+# All requested packages already installed.
+
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda create =[K--name snowflakes biopython
+[?2004lWARNING: A conda environment already exists at '/home/narasamma/miniconda3/envs/snowflakes'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ done
+
+## Package Plan ##
+
+  environment location: /home/narasamma/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  biopython          pkgs/main/linux-64::biopython-1.78-py311h5eee18b_0 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.08.22-h06a4308_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46305 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h213fc3f_46343 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py311h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.8-py311h5eee18b_0 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.4-py311hdb19cb5_0 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  numpy              pkgs/main/linux-64::numpy-1.26.0-py311h08b1b3b_0 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.26.0-py311hf175353_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.11-h7f8727e_2 
+  pip                pkgs/main/linux-64::pip-23.2.1-py311h06a4308_0 
+  python             pkgs/main/linux-64::python-3.11.5-h955ad1f_0 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-68.0.0-py311h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.41.2-py311h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: / - done
+Verifying transaction: | / - \ | / - \ | / done
+Executing transaction: \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda activate snowflakes
+[?2004l[?2004h(snowflakes) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda info --envs
+[?2004l# conda environments:
+#
+base                     /home/narasamma/miniconda3
+myclone                  /home/narasamma/miniconda3/envs/myclone
+myenv                    /home/narasamma/miniconda3/envs/myenv
+snakes                   /home/narasamma/miniconda3/envs/snakes
+snowflakes            *  /home/narasamma/miniconda3/envs/snowflakes
+
+[?2004h(snowflakes) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda actia[Kvate
+[?2004l[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda create --name snakes python=3.9
+[?2004lWARNING: A conda environment already exists at '/home/narasamma/miniconda3/envs/snakes'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - done
+Solving environment: | done
+
+## Package Plan ##
+
+  environment location: /home/narasamma/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.08.22-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.11-h7f8727e_2 
+  pip                pkgs/main/linux-64::pip-23.2.1-py39h06a4308_0 
+  python             pkgs/main/linux-64::python-3.9.18-h955ad1f_0 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-68.0.0-py39h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.41.2-py39h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - \ | done
+Executing transaction: - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda actib[Kvate snakes
+[?2004l[?2004h(snakes) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda info --envs
+[?2004l# conda environments:
+#
+base                     /home/narasamma/miniconda3
+myclone                  /home/narasamma/miniconda3/envs/myclone
+myenv                    /home/narasamma/miniconda3/envs/myenv
+snakes                *  /home/narasamma/miniconda3/envs/snakes
+snowflakes               /home/narasamma/miniconda3/envs/snowflakes
+
+[?2004h(snakes) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ python --version
+[?2004lPython 3.9.18
+[?2004h(snakes) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda activate
+[?2004l[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda search beautifulsoup5[K4
+[?2004lLoading channels: - \ | / - \ done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py39h06a4308_0  pkgs/main           
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda search beautifulsoup4[C[C[C[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4i beautifulsoup4n beautifulsoup4s beautifulsoup4t beautifulsoup4a beautifulsoup4l beautifulsoup4l beautifulsoup4
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - done
+
+# All requested packages already installed.
+
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda list
+[?2004l# packages in environment at /home/narasamma/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.12.2          py311h06a4308_0  
+boltons                   23.0.0          py311h06a4308_0  
+brotlipy                  0.7.0           py311h5eee18b_1002  
+bzip2                     1.0.8                h7b6447c_0  
+c-ares                    1.19.1               h5eee18b_0  
+ca-certificates           2023.08.22           h06a4308_0  
+certifi                   2023.7.22       py311h06a4308_0  
+cffi                      1.15.1          py311h5eee18b_3  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     23.9.0          py311h06a4308_0  
+conda-content-trust       0.1.3           py311h06a4308_0  
+conda-libmamba-solver     23.9.1          py311h06a4308_0  
+conda-package-handling    2.2.0           py311h06a4308_0  
+conda-package-streaming   0.9.0           py311h06a4308_0  
+cryptography              39.0.1          py311h9ce1e76_2  
+fmt                       9.1.0                hdb19cb5_0  
+icu                       73.1                 h6a678d5_0  
+idna                      3.4             py311h06a4308_0  
+jsonpatch                 1.32               pyhd3eb1b0_0  
+jsonpointer               2.1                pyhd3eb1b0_0  
+krb5                      1.20.1               h143b758_1  
+ld_impl_linux-64          2.38                 h1181459_1  
+libarchive                3.6.2                h6ac8c49_2  
+libcurl                   8.4.0                h251f7ec_0  
+libedit                   3.1.20221030         h5eee18b_0  
+libev                     4.33                 h7f8727e_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libmamba                  1.5.1                haf1ee3a_0  
+libmambapy                1.5.1           py311h2dafd23_0  
+libnghttp2                1.57.0               h2d74bed_0  
+libsolv                   0.7.24               he621ea3_0  
+libssh2                   1.10.0               hdbd6064_2  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+libxml2                   2.10.4               hf1b16e4_1  
+lz4-c                     1.9.4                h6a678d5_0  
+ncurses                   6.4                  h6a678d5_0  
+openssl                   3.0.11               h7f8727e_2  
+packaging                 23.1            py311h06a4308_0  
+pcre2                     10.42                hebb0a14_0  
+pip                       23.1.2          py311h06a4308_0  
+pluggy                    1.0.0           py311h06a4308_1  
+pybind11-abi              4                    hd3eb1b0_1  
+pycosat                   0.6.6           py311h5eee18b_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 23.2.0          py311h06a4308_0  
+pysocks                   1.7.1           py311h06a4308_0  
+python                    3.11.4               h955ad1f_0  
+readline                  8.2                  h5eee18b_0  
+reproc                    14.2.4               h295c915_1  
+reproc-cpp                14.2.4               h295c915_1  
+requests                  2.31.0          py311h06a4308_0  
+ruamel.yaml               0.17.21         py311h5eee18b_0  
+setuptools                67.8.0          py311h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+soupsieve                 2.5             py311h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tk                        8.6.12               h1ccaba5_0  
+tqdm                      4.65.0          py311h92b7b1e_0  
+truststore                0.8.0           py311h06a4308_0  
+tzdata                    2023c                h04d1e81_0  
+urllib3                   1.26.16         py311h06a4308_0  
+wheel                     0.38.4          py311h06a4308_0  
+xz                        5.4.2                h5eee18b_0  
+yaml-cpp                  0.7.0                h295c915_1  
+zlib                      1.2.13               h5eee18b_0  
+zstandard                 0.19.0          py311h5eee18b_0  
+zstd                      1.5.5                hc292b87_0  
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ echo $PATH
+[?2004l/home/narasamma/miniconda3/bin:/home/narasamma/miniconda3/bin:/home/narasamma/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Python311/Scripts:/mnt/c/Program Files/Python311:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Users/narasamma.godava/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/narasamma.godava/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ which python [K
+[?2004l/home/narasamma/miniconda3/bin/python
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ conda list
+[?2004l# packages in environment at /home/narasamma/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.12.2          py311h06a4308_0  
+boltons                   23.0.0          py311h06a4308_0  
+brotlipy                  0.7.0           py311h5eee18b_1002  
+bzip2                     1.0.8                h7b6447c_0  
+c-ares                    1.19.1               h5eee18b_0  
+ca-certificates           2023.08.22           h06a4308_0  
+certifi                   2023.7.22       py311h06a4308_0  
+cffi                      1.15.1          py311h5eee18b_3  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     23.9.0          py311h06a4308_0  
+conda-content-trust       0.1.3           py311h06a4308_0  
+conda-libmamba-solver     23.9.1          py311h06a4308_0  
+conda-package-handling    2.2.0           py311h06a4308_0  
+conda-package-streaming   0.9.0           py311h06a4308_0  
+cryptography              39.0.1          py311h9ce1e76_2  
+fmt                       9.1.0                hdb19cb5_0  
+icu                       73.1                 h6a678d5_0  
+idna                      3.4             py311h06a4308_0  
+jsonpatch                 1.32               pyhd3eb1b0_0  
+jsonpointer               2.1                pyhd3eb1b0_0  
+krb5                      1.20.1               h143b758_1  
+ld_impl_linux-64          2.38                 h1181459_1  
+libarchive                3.6.2                h6ac8c49_2  
+libcurl                   8.4.0                h251f7ec_0  
+libedit                   3.1.20221030         h5eee18b_0  
+libev                     4.33                 h7f8727e_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libmamba                  1.5.1                haf1ee3a_0  
+libmambapy                1.5.1           py311h2dafd23_0  
+libnghttp2                1.57.0               h2d74bed_0  
+libsolv                   0.7.24               he621ea3_0  
+libssh2                   1.10.0               hdbd6064_2  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+libxml2                   2.10.4               hf1b16e4_1  
+lz4-c                     1.9.4                h6a678d5_0  
+ncurses                   6.4                  h6a678d5_0  
+openssl                   3.0.11               h7f8727e_2  
+packaging                 23.1            py311h06a4308_0  
+pcre2                     10.42                hebb0a14_0  
+pip                       23.1.2          py311h06a4308_0  
+pluggy                    1.0.0           py311h06a4308_1  
+pybind11-abi              4                    hd3eb1b0_1  
+pycosat                   0.6.6           py311h5eee18b_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 23.2.0          py311h06a4308_0  
+pysocks                   1.7.1           py311h06a4308_0  
+python                    3.11.4               h955ad1f_0  
+readline                  8.2                  h5eee18b_0  
+reproc                    14.2.4               h295c915_1  
+reproc-cpp                14.2.4               h295c915_1  
+requests                  2.31.0          py311h06a4308_0  
+ruamel.yaml               0.17.21         py311h5eee18b_0  
+setuptools                67.8.0          py311h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+soupsieve                 2.5             py311h06a4308_0  
+sqlite                    3.41.2               h5eee18b_0  
+tk                        8.6.12               h1ccaba5_0  
+tqdm                      4.65.0          py311h92b7b1e_0  
+truststore                0.8.0           py311h06a4308_0  
+tzdata                    2023c                h04d1e81_0  
+urllib3                   1.26.16         py311h06a4308_0  
+wheel                     0.38.4          py311h06a4308_0  
+xz                        5.4.2                h5eee18b_0  
+yaml-cpp                  0.7.0                h295c915_1  
+zlib                      1.2.13               h5eee18b_0  
+zstandard                 0.19.0          py311h5eee18b_0  
+zstd                      1.5.5                hc292b87_0  
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ sha256sum [7m/home/narasamma/miniconda3/bin/python[27m/home/narasamma/miniconda3/bin/python
+[?2004lc36f72394c5451a63c7bf60a9c87f6d96ffebef579cab10df525c1232e7d61d8  /home/narasamma/miniconda3/bin/python
+[?2004h(base) ]0;narasamma@TIGER03476: ~[01;32mnarasamma@TIGER03476[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-10-11 18:54:06+05:30 [COMMAND_EXIT_CODE="0"]
